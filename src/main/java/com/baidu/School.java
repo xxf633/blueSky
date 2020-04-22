@@ -52,4 +52,14 @@ public class School implements Serializable{
         this.schooleAdress = schooleAdress;
         this.schoolHistry = schoolHistry;
     }
+
+    @Override
+    public String toString() {
+        return "School{" +
+                "sId=" + sId +
+                ", schoolName='" + schoolName + '\'' +
+                ", schooleAdress='" + schooleAdress + '\'' +
+                ", schoolHistry='" + schoolHistry + '\'' +
+                '}';
+    }
 }
